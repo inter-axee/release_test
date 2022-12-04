@@ -1,1 +1,1 @@
-console.log("Testing releases in GIT");
+console.log("Testing releases in GIT. Feature");
