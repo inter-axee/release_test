@@ -9,9 +9,6 @@
     "start" : "node dist/app.js",
     "build" : "tsc"
   },
-  "ts-standard": {
-    "project": "./tsconfig.json"
-  },
   "devDependencies": {
     "typescript": "^4.9.3"
   }
