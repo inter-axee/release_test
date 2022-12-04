@@ -1,7 +1,7 @@
 {
   "name": "release_test",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "repository": "https://github.com/inter-axee/release_test.git",
   "author": "axel-seugling <axel.seugling@inter.ikea.com>",
   "license": "MIT",
