@@ -11,6 +11,7 @@ on:
   workflow_dispatch:
     branches:
     - 'development'
+    - 'main'
     inputs:
       release:
         type: string
@@ -29,7 +30,7 @@ jobs:
 
   create-release:
     name: Create new release
-    runs-on: [ azure ]
+    runs-on: [ ubuntu-latest ]
     steps:
     - uses: actions/checkout@v2
     - name: Get new version
