@@ -10,7 +10,7 @@
     "build" : "tsc"
   },
   "ts-standard": {
-    "project": "path/to/tsconfig.json"
+    "project": "./tsconfig.json"
   },
   "devDependencies": {
     "typescript": "^4.9.3"
