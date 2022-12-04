@@ -6,4 +6,4 @@ const double = (value : number) :number => {
     return 2 * value;
 }
 
-console.log(double(3));
+console.log(double(10));
