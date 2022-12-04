@@ -1,1 +1,1 @@
-console.log("Testing releases in GIT. Feature. Breaking change. behind");
+console.log("Testing fix in GIT. Feature. Breaking change. behind. New feature");
