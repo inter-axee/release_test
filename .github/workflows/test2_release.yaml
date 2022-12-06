@@ -18,7 +18,7 @@ jobs:
 
       - name: Generate release notes
         run: |
-          cat commits.txt | grep -P '^(fix|feat|docs|chore)\(\w+\):' > release-notes.txt
+          cat commits.txt | grep -P '^(fix|feat|docs|chore):' > release-notes.txt
 
       - name: Create release
         uses: actions/create-release@v1
