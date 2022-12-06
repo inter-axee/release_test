@@ -14,7 +14,7 @@ jobs:
 
       - name: Extract commit messages
         run: |
-          git log --oneline --decorate --pretty=format:"%s" $(git describe --tags --abbrev=0)..HEAD > commits.txt
+          git log --first-parent --oneline --decorate --pretty=format:"%s" $(git describe --tags --abbrev=0)..HEAD > commits.txt
 
       - name: Generate release notes
         run: |
