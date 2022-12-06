@@ -1,3 +1,4 @@
+name: Create new Release (chatGPT)
 on:
   workflow_dispatch:
     branches:
